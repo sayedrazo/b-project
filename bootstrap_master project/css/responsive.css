@@ -1,0 +1,81 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .header {
+        background-color: blueviolet;
+    }
+
+    .box {
+        min-height: 80px;
+        background-color: red;
+        color: black;
+        margin: 20px 0;
+    }
+}
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+ .header {
+     background-color: yellowgreen;
+ }
+
+ .box {
+     min-height: 80px;
+     background-color:palevioletred;
+     color: black;
+     margin: 20px 0;
+ }
+}
+    
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .header {
+      background-color: rgba(137, 43, 226, 0.5);
+  }
+
+  .box {
+      min-height: 80px;
+      background-color:gray;
+      color: rgb(0, 0, 0);
+      margin: 20px 0;
+  }
+}
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+ .header {
+     background-color:royalblue;
+ }
+
+ .box {
+     min-height: 80px;
+     background-color:gold;
+     color: black;
+     margin: 20px 0;
+ }
+}
+    
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98){
+   .header {
+       background-color: blueviolet;
+   }
+
+   .box {
+       min-height: 80px;
+       background-color: red;
+       color: black;
+       margin: 20px 0;
+   }
+}
+/* Extra Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1400px) {
+.header {
+    background-color: blueviolet;
+}
+
+.box {
+    min-height: 80px;
+    background-color:salmon;
+    color: black;
+    margin: 20px 0;
+}
+}
